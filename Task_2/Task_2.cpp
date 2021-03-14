@@ -4,7 +4,7 @@ using namespace std;
 
 //2. ЕДИНИЦЫ. Найдите все натуральные числа до m, двоичная запись которых состоит из единиц
 
-void BinaryOne(int upTo);
+void binaryOne(int upTo);
 
 int main()
 {
@@ -22,12 +22,12 @@ int main()
 	}
 	else {}
 
-	BinaryOne(m);
+	binaryOne(m);
 
 	return 0;
 }
 
-void BinaryOne(int upTo)
+void binaryOne(int upTo)
 {
 	int numbers = 3, degree = 2;
 
